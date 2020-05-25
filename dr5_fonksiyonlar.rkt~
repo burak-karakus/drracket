@@ -1,0 +1,19 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-advanced-reader.ss" "lang")((modname dr5_fonksiyonlar) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
+
+
+;https://htdp.org/2020-5-6/Book/part_one.html
+
+;Language->choose language advanced student
+
+
+(if (= 1 1) (print "esit") (print "esit degil"))
+
+(define a 3)
+(define b 5)
+
+(cond
+  [(= a b) (print " esit")]
+  [(> a b) (print " a buyuk")]
+  [(< a b) (print " b buyuk")] )
